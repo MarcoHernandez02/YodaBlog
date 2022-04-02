@@ -3,6 +3,14 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+const reload=
+		document.getElementById('reload');
+
+		reload.addEventListener('click', _ =>
+		{
+			location.reload('https://www.boredapi.com/api/activity?participants=1')
+		});
+
 
 (function($) {
 
@@ -30,5 +38,6 @@
 			speed: 1000,
 			offset: function() { return $nav.height(); }
 		});
+		
 
 })(jQuery);

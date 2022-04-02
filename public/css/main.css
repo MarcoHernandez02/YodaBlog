@@ -194,7 +194,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-top: solid 1px #444;
-		border-top-color: rgba(0, 0, 0, 0.35);
+		border-top-color: rgba(22, 170, 54, 0.849);
 		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 		height: 1px;
 		margin: 3em 0;
@@ -1532,7 +1532,7 @@ input, select, textarea {
 		border: solid 1px #ddd;
 		background: #fff;
 		color: #bbb;
-		box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
+		box-shadow: inset 0px 2px 3px 1px rgba(179, 43, 43, 0.89), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
 		width: 100%;
 	}
 
@@ -1542,7 +1542,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fafafa;
-			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
+			box-shadow: inset 0px 2px 5px 0px rgba(148, 21, 21, 0.788), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
 		}
 
 	form textarea {
@@ -1686,7 +1686,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #0db144d5;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1697,7 +1697,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: #86ec11;
 			color: #fff !important;
 		}
 
@@ -1706,7 +1706,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: #fff;
 			top: 1px;
 		}
 
@@ -1974,7 +1974,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #86ec11;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -2036,7 +2036,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #0db144d5;
 		text-align: center;
 		position: fixed;
 		left: 0;

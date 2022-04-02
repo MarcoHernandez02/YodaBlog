@@ -16,7 +16,7 @@ class ViewController extends Controller
         $Yoda = Yoda::all();
         $info = [];
         foreach ($Yoda as $yoda){
-            $info[]=[
+            $info []=[
                 'name'=>$yoda->name,
                 'description'=>$yoda->description,
                 'image'=>$yoda->image,
@@ -26,34 +26,35 @@ class ViewController extends Controller
   
     }
 
-    // -- This function called apiYoda is the BoredApi
+    // -- This function called apiYoda is the BoredApi parametre= participants
     public function apiYoda()
     {
         $client = new \GuzzleHttp\Client();
-        $response = $client->request('GET', 'https://www.boredapi.com/api/activity?participants=1');
+        $response = $client->request('GET', 'https://www.boredapi.com/api/activity?participants');
         $json = $response->getBody();
-        $datos = json_decode($json, true);
+        $participantsA = json_decode($json, true);
 
-        return compact('datos');
+        return compact('participantsA');
     }
     
-    // -- Route for BoredApi (function apiYoda)
+    // -- Route for BoredApi (function apiYoda) parametre= participants
     public function GameRoute()
     {
-        return view('game', ['datos' => $this->apiYoda()]);
+        return view('game', ['participantsA' => $this->apiYoda()]);
     }
-
+    
     // -- This is the function for the SWAPI 
     public function swApiRoute()
     {
         $Yoda = Yoda::all();
         $bio = [];
         foreach ($Yoda as $yoda){
-            $bio[]=[
+           
+        $bio []=[
                 'name'=>$yoda->name,
                 'description'=>$yoda->description,
-                'image'=>$yoda->image,
-            ];
+                'image'=>$yoda->image
+          ]; 
         }
         return view('swapi', ['bio' => $bio]);
     }

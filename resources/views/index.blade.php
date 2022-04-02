@@ -28,54 +28,19 @@
 						<p>I hope you enjoy it!</p>
 					</header>
 					@foreach($info as $info)
-					<div class="row">
+					
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
 								<a href="" class="image featured"><img src="{!!$info['image']!!}" alt="" /></a>
-								<h3><a href="">{{$info['name']}}</a></h3>
+								<h3>{{$info['name']}}</h3>
 								<p>{{$info['description']}}</p>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="" class="image featured"><img src="{!!$info['image']!!}" alt="" /></a>
-								<h3><a href="">{{$info['name']}}</a></h3>
-								<p>{{$info['description']}}</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="" class="image featured"><img src="{!!$info['image']!!}" alt="" /></a>
-								<h3><a href="">{{$info['name']}}</a></h3>
-								<p>{{$info['description']}}</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="" class="image featured"><img src="{!!$info['image']!!}" alt="" /></a>
-								<h3><a href="">{{$info['name']}}</a></h3>
-								<p>{{$info['description']}}</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="" class="image featured"><img src="{!!$info['image']!!}" alt="" /></a>
-								<h3><a href="">{{$info['name']}}</a></h3>
-								<p>{{$info['description']}}</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="" class="image featured"><img src="{!!$info['image']!!}" alt="" /></a>
-								<h3><a href="">{{$info['name']}}</a></h3>
-								<p>{{$info['description']}}</p>
-							</article>
-						</div>
-					</div>
+					
 					@endforeach	
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+						<p></p>
+						<!--<a href="#contact" class="button large scrolly">Get in touch with me</a>-->
 					</footer>
 				</div>
 			</article>	

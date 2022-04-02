@@ -12,22 +12,22 @@
 		<!-- Nav -->
 			<nav class="" id="nav">
 				<ul class="container">
-					<li class="nav-item"><a href="{{route('index')}}" class="nav-link">
+					<li class="nav-item {{! Route::is('index') ?: 'active' }}"><a href="{{route('index')}}" class="nav-link">
 					<i class="fas fa-home"></i>
 						HOME
 					</a></li>
-					<li class="nav-item"><a href="{{route('game')}}" class="nav-link">
+					<li class="nav-item {{! Route::is('game') ?: 'active' }}"><a href="{{route('game')}}" class="nav-link">
 						<i class="fas fa-pen"></i>	
 						I'M BORED
 					</a></li>
-					<li class="nav-item"><a href="{{route('video')}}" class="nav-link">
+					<li class="nav-item {{! Route::is('video') ?: 'active' }} "><a href="{{route('video')}}" class="nav-link">
 						<i class="fas fa-video"></i>
 						VIDEO
 					</a></li>
-					<li class="nav-item"><a href="{{route('contact')}}" class="nav-link">
+					<!--<li class="nav-item"><a href="{{route('contact')}}" class="nav-link">
 						<i class="fas fa-comments"></i>
 						CONTACT
-					</a></li>
+					</a></li>-->
 				</ul>
 			</nav>
 
