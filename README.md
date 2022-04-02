@@ -68,6 +68,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 link: http://miyagiyodablog.herokuapp.com/game
 Process to create it: 
 
+- ** API ** : https://youtu.be/RvZ82l8jXco
+
 ## Student
 
 Name: Hernández Sosa Marco Alberto
